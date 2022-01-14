@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 :root{
+    --color0: #B3B2B3;
     --color1: #C78C19;
     --color2: #088C19;
 }
 
 header{
-    background-color: #B3B2B3;
+    background-color: var(--color0);
     padding: 20px 0px;
 }
 
@@ -87,3 +88,19 @@ nav a:active{
     font-weight: bold;
     margin-top: 15px;
 }
+
+footer{
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+    margin-top: 300px;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+
+
