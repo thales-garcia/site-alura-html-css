@@ -17,6 +17,11 @@ nav{
     right: 0px;
 }
 
+nav li{
+    display: inline;
+    padding-right: 15px;
+}
+
 .titulo_central{
     position: relative;
     width: 980px;
@@ -102,5 +107,72 @@ footer{
     margin-top: 20px;
 }
 
+main{
+    width: 940px;
+    margin: 0px auto;
+}
 
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    font-size: 1em;
+    width: 50%;
+}
+
+.input-textarea{
+    margin-bottom: 15px;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.obrigatorio{
+    color: red;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.enviar:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
 
